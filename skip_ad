@@ -1,0 +1,60 @@
+{
+  "manifest_version": 3,
+  "name": "Bỏ Qua Quảng Cáo Auto",
+  "version": "1.0",
+  "description": "Tự động bấm bỏ qua quảng cáo YouTube nhanh chóng.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
+{
+  "manifest_version": 3,
+  "name": "Bỏ Qua Quảng Cáo Auto",
+  "version": "1.0",
+  "description": "Tự động bấm bỏ qua quảng cáo YouTube nhanh chóng.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
+// Hàm tự động phát hiện và bấm nút bỏ qua quảng cáo
+function autoSkipAds() {
+  // Tìm các class phổ biến của nút Bỏ qua quảng cáo trên YouTube
+  const skipSelectors = [
+    '.ytp-ad-skip-button',
+    '.ytp-ad-skip-button-modern',
+    '.ytp-skip-ad-button',
+    '.ytp-ad-skip-button-text'
+  ];
+
+  for (const selector of skipSelectors) {
+    const btn = document.querySelector(selector);
+    if (btn) {
+      btn.click();
+      console.log('[Auto Skip Ads] Đã tự động bỏ qua quảng cáo!');
+      break;
+    }
+  }
+
+  // Tự động bấm nút đóng các banner quảng cáo nhỏ phía dưới video
+  const closeOverlayBtn = document.querySelector('.ytp-ad-overlay-close-button');
+  if (closeOverlayBtn) {
+    closeOverlayBtn.click();
+  }
+}
+
+// Chạy kiểm tra mỗi 0.5 giây
+setInterval(autoSkipAds, 500);
