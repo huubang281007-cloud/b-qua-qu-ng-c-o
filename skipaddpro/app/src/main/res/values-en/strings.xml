@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Skip Ad Pro</string>
+    <string name="tagline">Auto-taps “Skip ad” on every YouTube app</string>
+    <string name="service_description">Automatically taps the “Skip ad” button in YouTube, YouTube Music, YouTube Go, Kids, Vanced, ReVanced and web browsers when it appears. The app does not collect or send any data.</string>
+
+    <string name="status_on_title">Active</string>
+    <string name="status_on_sub">Skip Ad Pro is watching YouTube for you</string>
+    <string name="status_off_title">Service is off</string>
+    <string name="status_off_sub">Turn on “Skip Ad Pro” in Accessibility to start</string>
+    <string name="btn_open_settings">Open Accessibility settings</string>
+
+    <string name="stats_title">Skipped</string>
+    <string name="stats_count">%1$d ads</string>
+    <string name="stats_last">Last one: %1$s</string>
+    <string name="stats_never">No ads skipped yet</string>
+    <string name="btn_reset">Reset</string>
+
+    <string name="settings_title">Options</string>
+    <string name="opt_enabled">Auto-skip ads</string>
+    <string name="opt_enabled_sub">Turn off to pause without removing the service</string>
+    <string name="opt_browsers">Browser support</string>
+    <string name="opt_browsers_sub">Chrome, Firefox, Brave, Edge, Samsung, Coc Coc…</string>
+    <string name="opt_toast">Show a toast when skipping</string>
+    <string name="opt_toast_sub">Small message after each successful skip</string>
+
+    <string name="apps_title">Supported apps</string>
+    <string name="apps_list">• YouTube, YouTube Music, YouTube Go, YouTube Kids, YouTube TV\n• YouTube Vanced / ReVanced (including Music)\n• Browsers: Chrome, Firefox, Brave, Edge, Opera, Samsung, Vivaldi, Coc Coc…\n• Detects the skip button in many languages (EN, VI, ES, FR, DE, JA, KO, ZH, RU…)</string>
+
+    <string name="guide_title">How to enable</string>
+    <string name="guide_text">1. Tap “Open Accessibility settings” → Downloaded apps → Skip Ad Pro → turn on.\n2. Android 13+: if the switch is greyed out, go to Settings → Apps → Skip Ad Pro → ⋮ (top right) → “Allow restricted settings”, then repeat step 1.\n3. Open YouTube. When the Skip button shows up, the app taps it for you.\n\nNote: only skippable ads can be skipped. Non-skippable ads must still play through.</string>
+
+    <string name="toast_skipped">Ad skipped</string>
+</resources>

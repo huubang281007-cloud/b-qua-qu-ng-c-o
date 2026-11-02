@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Skip Ad Pro</string>
+    <string name="tagline">Tự động bấm “Bỏ qua quảng cáo” trên mọi bản YouTube</string>
+    <string name="service_description">Tự động bấm nút “Bỏ qua quảng cáo” trong YouTube, YouTube Music, YouTube Go, Kids, Vanced, ReVanced và trình duyệt khi nút này xuất hiện. Ứng dụng không thu thập hay gửi bất kỳ dữ liệu nào.</string>
+
+    <string name="status_on_title">Đang hoạt động</string>
+    <string name="status_on_sub">Skip Ad Pro đang theo dõi YouTube cho bạn</string>
+    <string name="status_off_title">Chưa bật dịch vụ</string>
+    <string name="status_off_sub">Bật “Skip Ad Pro” trong Trợ năng để bắt đầu</string>
+    <string name="btn_open_settings">Mở cài đặt Trợ năng</string>
+
+    <string name="stats_title">Đã bỏ qua</string>
+    <string name="stats_count">%1$d quảng cáo</string>
+    <string name="stats_last">Lần gần nhất: %1$s</string>
+    <string name="stats_never">Chưa có quảng cáo nào được bỏ qua</string>
+    <string name="btn_reset">Đặt lại</string>
+
+    <string name="settings_title">Tuỳ chọn</string>
+    <string name="opt_enabled">Tự động bỏ qua quảng cáo</string>
+    <string name="opt_enabled_sub">Tắt để tạm dừng mà không cần gỡ dịch vụ</string>
+    <string name="opt_browsers">Hỗ trợ trình duyệt</string>
+    <string name="opt_browsers_sub">Chrome, Firefox, Brave, Edge, Samsung, Cốc Cốc…</string>
+    <string name="opt_toast">Hiện thông báo khi bỏ qua</string>
+    <string name="opt_toast_sub">Hiện dòng chữ nhỏ mỗi lần bỏ qua thành công</string>
+
+    <string name="apps_title">Ứng dụng được hỗ trợ</string>
+    <string name="apps_list">• YouTube, YouTube Music, YouTube Go, YouTube Kids, YouTube TV\n• YouTube Vanced / ReVanced (kể cả Music)\n• Trình duyệt: Chrome, Firefox, Brave, Edge, Opera, Samsung, Vivaldi, Cốc Cốc…\n• Nhận diện nút bỏ qua bằng nhiều ngôn ngữ (Việt, Anh, Tây Ban Nha, Pháp, Đức, Nhật, Hàn, Trung, Nga…)</string>
+
+    <string name="guide_title">Hướng dẫn bật</string>
+    <string name="guide_text">1. Bấm “Mở cài đặt Trợ năng” → Ứng dụng đã tải xuống → Skip Ad Pro → Bật.\n2. Android 13+: nếu công tắc bị mờ, vào Cài đặt → Ứng dụng → Skip Ad Pro → ⋮ (góc trên) → “Cho phép cài đặt bị hạn chế”, rồi quay lại bước 1.\n3. Mở YouTube. Khi nút “Bỏ qua” xuất hiện, app sẽ tự bấm.\n\nLưu ý: chỉ bỏ qua được quảng cáo có nút “Bỏ qua”. Quảng cáo không cho bỏ qua vẫn phải xem hết.</string>
+
+    <string name="toast_skipped">Đã bỏ qua quảng cáo</string>
+</resources>
